@@ -5,12 +5,14 @@ import Login from "./pages/Login";
 import { BrowserRouter as  Router,Route,Routes} from "react-router-dom";
 import Header from "./components/Header";
 
+
+
 function App(){
   return(
    
     <Router>
       <Header/>
-        <Routes>
+      <Routes>
         <Route path="/about" element={<About/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/login" element={<Login/>}/>

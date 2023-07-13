@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+.disc {
+  padding: 10px 40px;
+}
+.disc-heading {
+  margin: 1% 20%;
+  padding: 20px 5px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  background-color: rgb(71, 70, 70);
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  border-radius: 20px;
+  text-shadow: 1px 4px 2px rgb(0, 0, 0);
+  text-align: center;
+  font-family: 'Merriweather', serif;}
+.disc-heading2 {
+  margin: 20px 0px 5px 0px;
+  padding: 5px 0px;
+  text-transform: uppercase;
+  font-family: 'Merriweather', serif; 
+}
+.para1 {
+  text-align: justify;
+  font-family: "Inter", sans-serif; 
+}
+.overview {
+  margin: 20px 0px 5px 0px;
+  padding: 5px 0px;
+  text-transform: uppercase;
+  font-family: 'Merriweather', serif;
+}
+.para2 {
+  text-align: justify;
+  font-family: "Inter", sans-serif; 
+
+}
